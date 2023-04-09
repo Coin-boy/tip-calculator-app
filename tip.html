@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="/tipc.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header-text">
+            <div class="spli"><p>SPLI</p></div>
+            <div class="tter"><p>TTER</p></div>
+        </div>
+    </header>
+    <main>
+
+        <div class="calculator-container">
+            <div class="input-container">
+              <div class="bill-container">
+                <p class="label-text">Bill</p>
+                <input class="bill-input" type="text" placeholder= "0">
+              </div>
+              <div class="tip-percent-container">
+                <p class="label-text">Select Tip %</p>
+                <div class="buttons-container">
+                    <button class="percent">5%</button>
+                    <button class="percent">10%</button>
+                    <button class="percent">15%</button>
+                    <button class="percent">25%</button>
+                    <button class="percent">50%</button>
+                    <input type="text" class="custom" placeholder="custom">
+                </div>
+              </div>  
+              <div class="people-container">
+                <p class="label-text">Number of people</p>
+                <input type="text" class="number-of-people" placeholder="0">
+
+              </div>  
+            </div>
+            <div class="output-container">
+                <div class="amount-container">
+                    <div class="labels">
+                        <h2>Tip amount</h2>
+                        <p> / person</p>
+                    </div>
+                    <div class="label-amount"><h1 class="l-amount">$0.00</h1></div>
+                </div>
+                <div class="total-container">
+                    <div class="labels">
+                        <h2>Total</h2>
+                        <p> / person</p>
+                    </div>
+                    <div class="total-amount"><h1 class="t-amount">$0.00</h1></div>
+                </div>
+                <div class="reset">
+                    <button class="reset-button">RESET</button>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    <footer></footer>
+    <script src="tip.js"></script>
+</body>
+</html>
